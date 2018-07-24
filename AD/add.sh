@@ -18,7 +18,7 @@ passwd $name
 echo Enter the department?
 read deptname
 
-yum install realmd -y 
+yum install sssd realmd oddjob oddjob-mkhomedir adcli samba-common samba-common-tools krb5-workstation openldap-clients policycoreutils-python -y 
 
 realm join ad.fiu.edu --user=$name --computer-ou="OU=Unix-Linux,OU=$deptname,OU=Computers,OU=College of Arts Sciences & Education,OU=FIU Departments,DC=ad,DC=fiu,DC=edu" -v
 
