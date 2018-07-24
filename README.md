@@ -2,10 +2,6 @@
 Automation Scripts - CASTIC 
 
 <p>
-Basic Git commands <br>
-https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html <br>
-
-
 
 Git commands<br>
 
@@ -34,4 +30,8 @@ git status
 git pull
 
 </code>
+
+Basic Git commands <br>
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html <br>
+
 </p>
