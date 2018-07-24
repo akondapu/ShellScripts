@@ -7,7 +7,7 @@ https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.ht
 
 
 
-Git commands
+Git commands<br>
 <code>
 git config --global user.name "Sam Smith"
 
@@ -30,6 +30,6 @@ git push origin master
 git status
 
 git pull
-</code>
 
+</code>
 </p>
