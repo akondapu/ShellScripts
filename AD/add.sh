@@ -1,13 +1,13 @@
 #!/bin/bash
     
 ## Ask the user for their AD creds ##
-echo enter your ad ID 
+echo "######## Enter your ActiveDirectory ID ########"
 read name
 
-echo creating user $name .....
+echo "######## Creating a Local-User $name ..... ########"
 useradd $name
 
-echo enter your ad password
+echo "######## Enter your ActiveDirectory password ########"
 passwd $name
 
 
@@ -15,7 +15,7 @@ passwd $name
 
 ## Ask for department ## 
 
-echo Enter the department?
+echo "######## Enter the department? ########"
 read deptname
 
 yum install sssd realmd oddjob oddjob-mkhomedir adcli samba-common samba-common-tools krb5-workstation openldap-clients policycoreutils-python -y 
@@ -35,7 +35,7 @@ chmod 600 /etc/sssd/sssd.conf
 
 ## Stopping and enabling services ##
 
-echo mending the service .......
+echo "######## Mending the service ....... ########"
 
 service sssd stop
 
