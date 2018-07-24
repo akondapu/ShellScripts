@@ -1,12 +1,11 @@
 #!/bin/bash
-<<'ScriptInformation'
-Author:     Chaitanya Mundhe
-Department: CASTIC-LINUX
-Last Revision: 07.24.2018
-About:      Shell Script installs dependent packages, create local user, and adds
-            system to FIUs active directory.
-Resources:  
-https://www.linuxtechi.com/integrate-rhel7-centos7-windows-active-directory/
+# Author:               Chaitanya Mundhe
+# Department:           CASTIC-LINUX
+# Last Revision:        07.24.2018
+# About:                Shell Script installs dependent packages, create local user, and adds
+#                       system to FIUs active directory.
+# Resources:  
+# https://www.linuxtechi.com/integrate-rhel7-centos7-windows-active-directory/
 
 'ScriptInformation'
     
