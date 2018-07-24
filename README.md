@@ -9,6 +9,7 @@ https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.ht
 
 Git commands<br>
 <code>
+  
 git config --global user.name "Sam Smith"
 
 git config --global user.email sam@example.com
